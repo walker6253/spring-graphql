@@ -1,0 +1,10 @@
+type Query {
+
+    findBooks: [Book]
+    countBooks: Int
+
+}
+
+type Mutation {
+    addBook(bookName: String!,publisher: String!,age: String!,authorName: String!): Book!
+}
